@@ -11,7 +11,7 @@ import { TranslationModel } from '../../models/translation';
 @Component({
   selector: 'app-dictionary',
   templateUrl: './dictionary.component.html',
-  styleUrls: ['./dictionary.component.css']
+  styleUrls: ['./dictionary.component.scss']
 })
 export class DictionaryComponent implements OnInit {
   dictionary: DictionaryModel = null;
@@ -28,6 +28,9 @@ export class DictionaryComponent implements OnInit {
   ) {}
 
   ngOnInit () {
+    this.form = new FormGroup({
+      value: new FormControl('', [Validators.required]),
+    });
     this.route.params
       .switchMap((params: Params) => this.dictionaryService.getDictionary(params['id']))
       .subscribe(dictionary => {
@@ -35,25 +38,19 @@ export class DictionaryComponent implements OnInit {
           return this.location.back();
         }
         this.dictionary = dictionary;
+        this.newTranslation();
       });
-
-    this.form = new FormGroup({
-      value: new FormControl('', [Validators.required]),
-    });
   }
-  loadTranslation () {
+  newTranslation () {
     this.translation = this.dictionary.getRandomWord().getRandomTranslation();
     this.form.controls['value'].patchValue('');
     this.score = null;
     this.form.enable();
-    console.log(this.translation);
   }
   testTranslation () {
-    if (this.score === null) {
-      this.score = this.translation.test(this.form.controls['value'].value);
-      this.scoreCurrent += this.score;
-      this.scoreMax += 10;
-      this.form.disable();
-    }
+    this.score = this.translation.test(this.form.controls['value'].value);
+    this.scoreCurrent += this.score;
+    this.scoreMax += 10;
+    this.form.disable();
   }
 }

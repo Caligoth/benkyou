@@ -2,22 +2,38 @@
     Chargement des dictionnaires...
 </div>
 <div *ngIf="dictionary !== null">
-    <button (click)="loadTranslation()">Nouveau mot</button>
-    <div *ngIf="translation !== null">
-        {{ dictionary[translation.fromLn] }}
-        {{ dictionary[translation.toLn] }}
-        {{ translation.fromWord }}
-        {{ translation.word.notes }}
-        <form [formGroup]="form" (ngSubmit)="testTranslation()">
-            <input formControlName="value">
-            <button type="submit" [disabled]="score !== null">Test</button>
-        </form>
-        <span *ngIf="score !== null">
-            {{ score === 10 ? 'Correct' : 'Faux' }}
-            {{ translation.toWords }}
-        </span>
-        <span *ngIf="scoreMax > 0">
+    <div class="row" *ngIf="scoreMax > 0">
+        <div class="col">Score</div>
+        <div class="col">
             {{ scoreCurrent }} / {{ scoreMax }}
-        </span>
+        </div>
+    </div>
+    <div *ngIf="translation !== null" class="row">
+        <div class="col container">
+            <div class="row">
+                <div class="col">{{ dictionary[translation.fromLn] }}</div>
+                <div class="col">{{ dictionary[translation.toLn] }}</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary fa fa-refresh" (click)="newTranslation()"></button>
+                    {{ translation.fromWord }}
+                </div><!--{{ translation.word.notes }}-->
+                <form  class="col form-inline" [formGroup]="form" (ngSubmit)="testTranslation()">
+                    <div class="input-group">
+                        <input class="form-control" formControlName="value">
+                    </div>
+                    <button class="btn btn-primary fa fa-send" type="submit" [disabled]="score !== null"></button>
+                </form>
+            </div>
+            <div *ngIf="score !== null" class="row">
+                <div class="col" [ngClass]="{'text-success': score === 10, 'text-danger': score < 10}">
+                    <i class="fa" [ngClass]="{'fa-check': score === 10, 'fa-times': score < 10}"></i>
+                </div>
+                <div class="col">
+                    {{ translation.toWords }}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
