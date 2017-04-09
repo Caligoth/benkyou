@@ -1,0 +1,23 @@
+<div *ngIf="dictionary === null">
+    Chargement des dictionnaires...
+</div>
+<div *ngIf="dictionary !== null">
+    <button (click)="loadTranslation()">Nouveau mot</button>
+    <div *ngIf="translation !== null">
+        {{ dictionary[translation.fromLn] }}
+        {{ dictionary[translation.toLn] }}
+        {{ translation.fromWord }}
+        {{ translation.word.notes }}
+        <form [formGroup]="form" (ngSubmit)="testTranslation()">
+            <input formControlName="value">
+            <button type="submit" [disabled]="score !== null">Test</button>
+        </form>
+        <span *ngIf="score !== null">
+            {{ score === 10 ? 'Correct' : 'Faux' }}
+            {{ translation.toWords }}
+        </span>
+        <span *ngIf="scoreMax > 0">
+            {{ scoreCurrent }} / {{ scoreMax }}
+        </span>
+    </div>
+</div>

@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './component.html',
-  styleUrls: ['./component.css']
+  templateUrl: './root.component.html',
+  styleUrls: ['./root.component.css']
 })
 export class RootComponent implements OnInit {
   constructor () {}
