@@ -1,0 +1,1897 @@
+{
+  "id": "jp-fr",
+  "ln1": "Japonais",
+  "ln2": "Français",
+  "words": [
+    {
+      "ln1": ["ふね"],
+      "ln2": ["bateau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おととい"],
+      "ln2": ["avant-hier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ならいます"],
+      "ln2": ["apprendre"],
+      "notes": "par quelqu'un"
+    },
+    {
+      "ln1": ["くだもの"],
+      "ln2": ["fruit"],
+      "notes": ""
+    },
+    {
+      "ln1": ["コ－ヒ－"],
+      "ln2": ["café"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちか"],
+      "ln2": ["sous-sol"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にわ"],
+      "ln2": ["jardin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じゃ、またあした"],
+      "ln2": ["bon à demain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["メ－ル"],
+      "ln2": ["mail"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あした"],
+      "ln2": ["demain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ゆうめいな"],
+      "ln2": ["célèbre","fameux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["セロテ－プ"],
+      "ln2": ["scotch"],
+      "notes": ""
+    },
+    {
+      "ln1": ["げつようび"],
+      "ln2": ["lundi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きょうしつ"],
+      "ln2": ["salle de cours"],
+      "notes": ""
+    },
+    {
+      "ln1": ["がくせい"],
+      "ln2": ["étudiant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おしえます"],
+      "ln2": ["enseigner","apprendre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["テレビ"],
+      "ln2": ["tv"],
+      "notes": ""
+    },
+    {
+      "ln1": ["コンピュ－タ－"],
+      "ln2": ["ordinateur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きんようび"],
+      "ln2": ["vendredi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひるごはん"],
+      "ln2": ["déjeuner"],
+      "notes": ""
+    },
+    {
+      "ln1": ["らいねん"],
+      "ln2": ["l'année prochaine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["えき"],
+      "ln2": ["gare","station"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちいさい"],
+      "ln2": ["petit"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ケ－タイ"],
+      "ln2": ["telephone portable"],
+      "notes": ""
+    },
+    {
+      "ln1": ["~と~"],
+      "ln2": ["et"],
+      "notes": ""
+    },
+    {
+      "ln1": ["さくら"],
+      "ln2": ["cerisier","fleur de cerisier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["て"],
+      "ln2": ["main"],
+      "notes": ""
+    },
+    {
+      "ln1": ["てちょう"],
+      "ln2": ["agenda"],
+      "notes": ""
+    },
+    {
+      "ln1": ["そろそろしつれいします。"],
+      "ln2": ["je vais bientôt partir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["~から"],
+      "ln2": ["a partir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おおきい"],
+      "ln2": ["grand"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ともだち"],
+      "ln2": ["ami"],
+      "notes": ""
+    },
+    {
+      "ln1": ["びじゅつかん"],
+      "ln2": ["musée"],
+      "notes": ""
+    },
+    {
+      "ln1": ["トイレ　おてあらい"],
+      "ln2": ["toilette"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しゃいん"],
+      "ln2": ["employé"],
+      "notes": "a utiliser avec le nom de la compagnie"
+    },
+    {
+      "ln1": ["うち"],
+      "ln2": ["maison"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どうぞ"],
+      "ln2": ["je vous en pris"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にちようび"],
+      "ln2": ["dimanche"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いらっしゃい"],
+      "ln2": ["bonjour","bienvenue"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ス－パ－"],
+      "ln2": ["supermarché"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りょう"],
+      "ln2": ["résidence","pension","internat"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんじ"],
+      "ln2": ["quelle heure ?"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いいですね"],
+      "ln2": ["ce serait bien"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ばん よる"],
+      "ln2": ["soir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しゃしん"],
+      "ln2": ["photo"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やすい"],
+      "ln2": ["bon marché","pas cher"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すいます"],
+      "ln2": ["fumer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はな"],
+      "ln2": ["fleur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かいます"],
+      "ln2": ["acheter"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かけます"],
+      "ln2": ["passer un coup de téléphone","telephoner"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やすみ"],
+      "ln2": ["congé","repos","vacances"],
+      "notes": ""
+    },
+    {
+      "ln1": ["べんりな"],
+      "ln2": ["pratique","commode"],
+      "notes": ""
+    },
+    {
+      "ln1": ["けしゴム"],
+      "ln2": ["gomme"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やさしい"],
+      "ln2": ["facile"],
+      "notes": ""
+    },
+    {
+      "ln1": ["せんげつ"],
+      "ln2": ["le mois dernier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["てがみ"],
+      "ln2": ["lettre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんようび"],
+      "ln2": ["quel jour ?"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はし"],
+      "ln2": ["baguette"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いつも"],
+      "ln2": ["toujours","habituellement"],
+      "notes": ""
+    },
+    {
+      "ln1": ["けさ"],
+      "ln2": ["ce matin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たまご"],
+      "ln2": ["oeuf"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やすみます"],
+      "ln2": ["se reposer","prendre congés"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じむしょ"],
+      "ln2": ["bureau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんですか"],
+      "ln2": ["oui"],
+      "notes": "?"
+    },
+    {
+      "ln1": ["どう"],
+      "ln2": ["comment"],
+      "notes": ""
+    },
+    {
+      "ln1": ["パソコン"],
+      "ln2": ["ordinateur personnel"],
+      "notes": ""
+    },
+    {
+      "ln1": ["くつ"],
+      "ln2": ["chaussure"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あげます"],
+      "ln2": ["donner","offrir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にほんご"],
+      "ln2": ["japonais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すてきな"],
+      "ln2": ["joli","chouette","magnifique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぎんこう"],
+      "ln2": ["banque"],
+      "notes": ""
+    },
+    {
+      "ln1": ["としょかん"],
+      "ln2": ["bibliothèque"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しゅくだい"],
+      "ln2": ["devoir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かようび"],
+      "ln2": ["mardi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["らいげつ"],
+      "ln2": ["le mois prochain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にぎやかな"],
+      "ln2": ["animé","fréquenté"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かさ"],
+      "ln2": ["parapluie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["レポ－ト"],
+      "ln2": ["rapport","compte-rendu"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こんげつ"],
+      "ln2": ["ce mois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あさって"],
+      "ln2": ["après-demain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はなみ"],
+      "ln2": ["contemplation des fleurs de cerisiers"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ざっし"],
+      "ln2": ["magazine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きります"],
+      "ln2": ["couper","découper"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かぎ"],
+      "ln2": ["clé"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ええ"],
+      "ln2": ["oui"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あさ"],
+      "ln2": ["matin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たいへんですね"],
+      "ln2": ["c'est dur"],
+      "notes": "pour vous"
+    },
+    {
+      "ln1": ["でんしゃ"],
+      "ln2": ["train"],
+      "notes": ""
+    },
+    {
+      "ln1": ["さけ"],
+      "ln2": ["alcool","saké japonais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かします"],
+      "ln2": ["prêter","louer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["がっこう"],
+      "ln2": ["école"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しんせつな"],
+      "ln2": ["gentil","aimable"],
+      "notes": "ne s'emploie pas pour un membre de sa famille"
+    },
+    {
+      "ln1": ["かえります"],
+      "ln2": ["rentrer","retourner"],
+      "notes": "chez soi"
+    },
+    {
+      "ln1": ["つぎの"],
+      "ln2": ["prochain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["スプ－ン"],
+      "ln2": ["cuillère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おもしろい"],
+      "ln2": ["intéressant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["~まで"],
+      "ln2": ["jusqu'à"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ねんがじょう"],
+      "ln2": ["carte de voeux du nouvel an"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なに"],
+      "ln2": ["que","quoi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひまな"],
+      "ln2": ["libre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かみ"],
+      "ln2": ["papier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とけい"],
+      "ln2": ["reveil","montre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かいぎ"],
+      "ln2": ["réunion"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ロビ－"],
+      "ln2": ["hall"],
+      "notes": ""
+    },
+    {
+      "ln1": ["えいご"],
+      "ln2": ["anglais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みます"],
+      "ln2": ["regarder","voir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ホッチキス"],
+      "ln2": ["agrafeuse"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きれいな"],
+      "ln2": ["joli","propre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんがつ"],
+      "ln2": ["quel mois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おかあさん"],
+      "ln2": ["mère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にんぷん"],
+      "ln2": ["quelle minutes"],
+      "notes": "?"
+    },
+    {
+      "ln1": ["エレベ－タ－"],
+      "ln2": ["ascenceur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["します"],
+      "ln2": ["faire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ばんごはん"],
+      "ln2": ["dîner"],
+      "notes": ""
+    },
+    {
+      "ln1": ["もくようび"],
+      "ln2": ["jeudi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひくい"],
+      "ln2": ["bas"],
+      "notes": ""
+    },
+    {
+      "ln1": ["［〜］もういっぱいいかがですか。"],
+      "ln2": ["voulez-vous prendre une autre"],
+      "notes": "?"
+    },
+    {
+      "ln1": ["ハンサムな"],
+      "ln2": ["beau","bel"],
+      "notes": "garçon ou homme"
+    },
+    {
+      "ln1": ["デパ－ト"],
+      "ln2": ["grand magasin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちょっと"],
+      "ln2": ["un peu"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちち"],
+      "ln2": ["père","mon père"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かります"],
+      "ln2": ["emprunter"],
+      "notes": ""
+    },
+    {
+      "ln1": ["クリスマス"],
+      "ln2": ["noel"],
+      "notes": ""
+    },
+    {
+      "ln1": ["くろい"],
+      "ln2": ["noir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かばん"],
+      "ln2": ["sac"],
+      "notes": ""
+    },
+    {
+      "ln1": ["これから"],
+      "ln2": ["maintenant","dès maintenant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["につも"],
+      "ln2": ["bagage"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ジュ－ス"],
+      "ln2": ["jus"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ビデオ"],
+      "ln2": ["cassette-vidéo","magnétoscope"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おかね"],
+      "ln2": ["argent"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんばん"],
+      "ln2": ["quel numéro"],
+      "notes": "?"
+    },
+    {
+      "ln1": ["やさい"],
+      "ln2": ["légume"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あさごはん"],
+      "ln2": ["petit déjeuner"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はさみ"],
+      "ln2": ["ciseaux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["もらいます"],
+      "ln2": ["recevoir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["それから"],
+      "ln2": ["après cela","ensuite","puis"],
+      "notes": ""
+    },
+    {
+      "ln1": ["テニス"],
+      "ln2": ["tennis"],
+      "notes": ""
+    },
+    {
+      "ln1": ["めいし"],
+      "ln2": ["carte de visite"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちがいます"],
+      "ln2": ["non ce n'est pas ça","vous avez tort"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こんばん"],
+      "ln2": ["ce soir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おきます"],
+      "ln2": ["se lever","se réveiller"],
+      "notes": ""
+    },
+    {
+      "ln1": ["－かい"],
+      "ln2": ["-étage"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かきます"],
+      "ln2": ["écrire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["せんせい"],
+      "ln2": ["professeur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["わかりました"],
+      "ln2": ["d'accord","je vois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どようび"],
+      "ln2": ["samedi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かいしゃ"],
+      "ln2": ["entreprise"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はたらきます"],
+      "ln2": ["travailler"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とっきゅえ"],
+      "ln2": ["spécial express"],
+      "notes": "train"
+    },
+    {
+      "ln1": ["おとうさん"],
+      "ln2": ["père"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たかい"],
+      "ln2": ["haut","élevé","cher","coûteux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["えいが"],
+      "ln2": ["film"],
+      "notes": ""
+    },
+    {
+      "ln1": ["－ねん"],
+      "ln2": ["-an"],
+      "notes": ""
+    },
+    {
+      "ln1": ["くるま"],
+      "ln2": ["voiture"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いっしょに"],
+      "ln2": ["ensemble"],
+      "notes": ""
+    },
+    {
+      "ln1": ["わるい"],
+      "ln2": ["mauvais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["エスカレ－タ－"],
+      "ln2": ["escalator"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あるいて"],
+      "ln2": ["a pied"],
+      "notes": ""
+    },
+    {
+      "ln1": ["べんきょうします"],
+      "ln2": ["etudier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["けんきゅうしゃ"],
+      "ln2": ["chercheur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ビ－ル"],
+      "ln2": ["bière"],
+      "notes": ""
+    },
+    {
+      "ln1": ["さかな"],
+      "ln2": ["poisson"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ごはん"],
+      "ln2": ["repas","riz"],
+      "notes": "cuit"
+    },
+    {
+      "ln1": ["みせ"],
+      "ln2": ["magasin","boutique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ときどき"],
+      "ln2": ["de temps en temps","parfois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あたらしい"],
+      "ln2": ["nouveau","neuf","frais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はは"],
+      "ln2": ["mère","ma mère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あいます"],
+      "ln2": ["rencontrer","voir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とります"],
+      "ln2": ["prendre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どうぞおあがりください"],
+      "ln2": ["entrez je vous en prie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ねます"],
+      "ln2": ["se coucher","dormir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ところ"],
+      "ln2": ["endroit"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちかてつ"],
+      "ln2": ["metro"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しつれいですが"],
+      "ln2": ["excusez-moi "],
+      "notes": "quand on va faire quelque chose d'impolie"
+    },
+    {
+      "ln1": ["ボ－ルペン"],
+      "ln2": ["stylo"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じてんしゃ"],
+      "ln2": ["velo"],
+      "notes": ""
+    },
+    {
+      "ln1": ["つめたい"],
+      "ln2": ["froid"],
+      "notes": "la sensation éprouvé au contact d'un objet"
+    },
+    {
+      "ln1": ["こんしゅう"],
+      "ln2": ["cette semaine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あまり"],
+      "ln2": ["pas très"],
+      "notes": ""
+    },
+    {
+      "ln1": ["けっこうです。"],
+      "ln2": ["non merci"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きのう"],
+      "ln2": ["hier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぎゅうにゅう"],
+      "ln2": ["lait"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やま"],
+      "ln2": ["montagne"],
+      "notes": ""
+    },
+    {
+      "ln1": ["へや"],
+      "ln2": ["Salle"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひるやすみ"],
+      "ln2": ["pause midi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ことし"],
+      "ln2": ["cette année"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まいばん"],
+      "ln2": ["Tous les soirs"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おくに"],
+      "ln2": ["pays"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じどうはんばいき"],
+      "ln2": ["distributeur automatique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["フォ－ク"],
+      "ln2": ["fourchette"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いい"],
+      "ln2": ["bon"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しょくどう"],
+      "ln2": ["restaurant","cantine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["カ－ド"],
+      "ln2": ["carte"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きっぷ"],
+      "ln2": ["billet","ticket"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しずかな"],
+      "ln2": ["calme","tranquille"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おいしい"],
+      "ln2": ["délicieux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しんかんせん"],
+      "ln2": ["shinkansen"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きょう"],
+      "ln2": ["aujourd'hui"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おわります"],
+      "ln2": ["terminer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["さむい"],
+      "ln2": ["froid"],
+      "notes": "le temps qu'il fait..."
+    },
+    {
+      "ln1": ["いしゃ"],
+      "ln2": ["medecin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["せいかつ"],
+      "ln2": ["vie"],
+      "notes": "quotidienne"
+    },
+    {
+      "ln1": ["たべます"],
+      "ln2": ["manger"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みず"],
+      "ln2": ["eau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おちゃ"],
+      "ln2": ["thé","thé vert"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しろい"],
+      "ln2": ["blanc"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まち"],
+      "ln2": ["ville","bourg","quartier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ノ－ト"],
+      "ln2": ["cahier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ききます"],
+      "ln2": ["écouter"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いそがしい"],
+      "ln2": ["occupé","pris"],
+      "notes": ""
+    },
+    {
+      "ln1": ["らいしゅう"],
+      "ln2": ["la semaine prochaine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かいぎしつ"],
+      "ln2": ["Salle de réunion"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きょねん"],
+      "ln2": ["l'année dernière"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きます"],
+      "ln2": ["venir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ナイフ"],
+      "ln2": ["couteau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["だいがく"],
+      "ln2": ["université"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いす"],
+      "ln2": ["chaise"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うけつけ"],
+      "ln2": ["Accueil"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どんな〜"],
+      "ln2": ["quel","quel genre de "],
+      "notes": ""
+    },
+    {
+      "ln1": ["しけん"],
+      "ln2": ["examen"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いま"],
+      "ln2": ["maintenant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["プレゼント"],
+      "ln2": ["cadeau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あかい"],
+      "ln2": ["rouge"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふるい"],
+      "ln2": ["vieux","ancien"],
+      "notes": "ne s'emploie pas pour l'âge d'une personne"
+    },
+    {
+      "ln1": ["［お］しごと"],
+      "ln2": ["travail","métier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぎんこういん"],
+      "ln2": ["banquier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["むずかしい"],
+      "ln2": ["difficile"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ごご"],
+      "ln2": ["après midi","de l'après midi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たんじょうび"],
+      "ln2": ["anniversaire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ゆうびんじょく"],
+      "ln2": ["Bureau de poste"],
+      "notes": ""
+    },
+    {
+      "ln1": ["せんしゅう"],
+      "ln2": ["la semaine dernière"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かれ"],
+      "ln2": ["lui","petit ami"],
+      "notes": ""
+    },
+    {
+      "ln1": ["タクシ－"],
+      "ln2": ["taxis"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とても"],
+      "ln2": ["très"],
+      "notes": ""
+    },
+    {
+      "ln1": ["カメラ"],
+      "ln2": ["appareil photo"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ネクタイ"],
+      "ln2": ["cravate"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あつい"],
+      "ln2": ["chaud"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たばこ"],
+      "ln2": ["cigarette"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いつ"],
+      "ln2": ["quand"],
+      "notes": ""
+    },
+    {
+      "ln1": ["つくえ"],
+      "ln2": ["bureau","table"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じしょ"],
+      "ln2": ["dictionnaire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なんねん"],
+      "ln2": ["quelle année"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おくります"],
+      "ln2": ["envoyer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おみやげ"],
+      "ln2": ["souvenir","cadeau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["パンチ"],
+      "ln2": ["perforeuse"],
+      "notes": ""
+    },
+    {
+      "ln1": ["バス"],
+      "ln2": ["bus"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まだ"],
+      "ln2": ["pas encore"],
+      "notes": ""
+    },
+    {
+      "ln1": ["そして"],
+      "ln2": ["et"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ばんごう"],
+      "ln2": ["numéro"],
+      "notes": ""
+    },
+    {
+      "ln1": ["またいらっしゃってください。"],
+      "ln2": ["revenez nous voir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ごぜん"],
+      "ln2": ["matin","du matin","matinée"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きゅうこう"],
+      "ln2": ["express"],
+      "notes": "transport"
+    },
+    {
+      "ln1": ["かいだん"],
+      "ln2": ["escalier"],
+      "notes": ""
+    },
+    {
+      "ln1": ["にく"],
+      "ln2": ["viande"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うりば"],
+      "ln2": ["rayon"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひとりで"],
+      "ln2": ["seul","par soi-même"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ラジオ"],
+      "ln2": ["radio"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たのしい"],
+      "ln2": ["agréable"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こうちゃ"],
+      "ln2": ["thé anglais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きょうし"],
+      "ln2": ["enseignant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たべもの"],
+      "ln2": ["nourriture","aliment"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふつう"],
+      "ln2": ["omnibus"],
+      "notes": "transport"
+    },
+    {
+      "ln1": ["ほん"],
+      "ln2": ["livre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["シャ－ポペンシル"],
+      "ln2": ["porte-mine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ワイン"],
+      "ln2": ["vin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひる"],
+      "ln2": ["après-midi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いきます"],
+      "ln2": ["aller"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひこうき"],
+      "ln2": ["avion"],
+      "notes": ""
+    },
+    {
+      "ln1": ["パン"],
+      "ln2": ["pain"],
+      "notes": ""
+    },
+    {
+      "ln1": ["もう"],
+      "ln2": ["déjà"],
+      "notes": ""
+    },
+    {
+      "ln1": ["えんぴつ"],
+      "ln2": ["crayon"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かいしゃいん"],
+      "ln2": ["employé d'une compagnie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すいようび"],
+      "ln2": ["mercredi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かぞく"],
+      "ln2": ["famille"],
+      "notes": ""
+    },
+    {
+      "ln1": ["のみます"],
+      "ln2": ["boire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["でんわ"],
+      "ln2": ["téléphone"],
+      "notes": ""
+    },
+    {
+      "ln1": ["しんぶん"],
+      "ln2": ["journal"],
+      "notes": ""
+    },
+    {
+      "ln1": ["レストラン"],
+      "ln2": ["restaurant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["サッカ－"],
+      "ln2": ["football"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あおい"],
+      "ln2": ["bleu"],
+      "notes": ""
+    },
+    {
+      "ln1": ["よみます"],
+      "ln2": ["lire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["－がつ"],
+      "ln2": ["-mois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["チョコレ－ト"],
+      "ln2": ["chocolat"],
+      "notes": ""
+    },
+    {
+      "ln1": ["げんきな"],
+      "ln2": ["en forme","vif","énergique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["びょういん"],
+      "ln2": ["hopital"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まいにち"],
+      "ln2": ["tous les jours"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かのじょ"],
+      "ln2": ["elle","petite amie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["シャツ"],
+      "ln2": ["chemise"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひと"],
+      "ln2": ["personne","gens"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まいあさ"],
+      "ln2": ["tous les matins"],
+      "notes": ""
+    },
+    {
+      "ln1": ["だいたい"],
+      "ln2": ["à peu près","presque"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すきな"],
+      "ln2": ["aimé","favori"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あります"],
+      "ln2": ["avoir"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やきゅう"],
+      "ln2": ["baseball"],
+      "notes": ""
+    },
+    {
+      "ln1": ["よく"],
+      "ln2": ["bien"],
+      "notes": ""
+    },
+    {
+      "ln1": ["チケット"],
+      "ln2": ["billet","ticket"],
+      "notes": ""
+    },
+    {
+      "ln1": ["のみもの"],
+      "ln2": ["boisson"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たくさん"],
+      "ln2": ["beaucoup"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ざんねんです"],
+      "ln2": ["c'est dommage"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うた"],
+      "ln2": ["chanson"],
+      "notes": ""
+    },
+    {
+      "ln1": ["クラシック"],
+      "ln2": ["classique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["わかります"],
+      "ln2": ["comprendre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["コンサート"],
+      "ln2": ["concert"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りょうり"],
+      "ln2": ["cuisine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ダンス"],
+      "ln2": ["danse"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きらいな"],
+      "ln2": ["détesté"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こども"],
+      "ln2": ["enfant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おくさん"],
+      "ln2": ["femme"],
+      "notes": "de quelqu'un d'autre"
+    },
+    {
+      "ln1": ["つま"],
+      "ln2": ["femme"],
+      "notes": "ma"
+    },
+    {
+      "ln1": ["じょうずな"],
+      "ln2": ["habile pour"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ジャズ"],
+      "ln2": ["jazz"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かぶき"],
+      "ln2": ["kabuki"],
+      "notes": ""
+    },
+    {
+      "ln1": ["カラオケ"],
+      "ln2": ["karaoke"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じ"],
+      "ln2": ["lettre","caractère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["へたな"],
+      "ln2": ["maladroit pour"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ごしゅじん"],
+      "ln2": ["mari"],
+      "notes": "de quelqu'un d'autre"
+    },
+    {
+      "ln1": ["おっと"],
+      "ln2": ["mari"],
+      "notes": "mon"
+    },
+    {
+      "ln1": ["おんがく"],
+      "ln2": ["musique"],
+      "notes": ""
+    },
+    {
+      "ln1": ["またこんどおねがいします"],
+      "ln2": ["n'hésitez pas à m'inviter une prochaine fois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いっしょにいかがですか"],
+      "ln2": ["ne voudriez-vous pas qu'on fasse quelque chose ensemble ?"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぜんぜん"],
+      "ln2": ["pas du tout"],
+      "notes": ""
+    },
+    {
+      "ln1": ["え"],
+      "ln2": ["peinture","dessin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こまかいおかね"],
+      "ln2": ["petite monnaie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どうして"],
+      "ln2": ["pourquoi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ようじ"],
+      "ln2": ["quelque chose à faire"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やくそく"],
+      "ln2": ["rendez-vous","promesse"],
+      "notes": ""
+    },
+    {
+      "ln1": ["スポーツ"],
+      "ln2": ["sport"],
+      "notes": ""
+    },
+    {
+      "ln1": ["じかん"],
+      "ln2": ["temps","heure"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はやく"],
+      "ln2": ["tôt vite"],
+      "notes": ""
+    },
+    {
+      "ln1": ["アルバイト"],
+      "ln2": ["travail partiel"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すこし"],
+      "ln2": ["un peu"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ためですか"],
+      "ln2": ["vous ne pouvez pas... ?"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りょこう"],
+      "ln2": ["voyage"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あります"],
+      "ln2": ["Il y a","exister","se trouver"],
+      "notes": "s'emploi sur ce qui n'est pas animé, qui est immobile"
+    },
+    {
+      "ln1": ["います"],
+      "ln2": ["Il y a","exister","se trouver"],
+      "notes": "s'emploi sur ce qui est animé, qui bouge"
+    },
+    {
+      "ln1": ["いろいろな"],
+      "ln2": ["divers","varié"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おとこのひと"],
+      "ln2": ["homme"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おんなのひと"],
+      "ln2": ["femme"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おとこのこ"],
+      "ln2": ["garçon"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おんなのこ"],
+      "ln2": ["fille"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いぬ"],
+      "ln2": ["chien"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ねこ"],
+      "ln2": ["chat"],
+      "notes": ""
+    },
+    {
+      "ln1": ["パンダ"],
+      "ln2": ["panda"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぞう"],
+      "ln2": ["éléphant"],
+      "notes": ""
+    },
+    {
+      "ln1": ["き"],
+      "ln2": ["arbre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["もの"],
+      "ln2": ["chose"],
+      "notes": ""
+    },
+    {
+      "ln1": ["でんち"],
+      "ln2": ["pile"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はこ"],
+      "ln2": ["boite"],
+      "notes": ""
+    },
+    {
+      "ln1": ["スイッチ"],
+      "ln2": ["interrupteur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["れいぞうこ"],
+      "ln2": ["réfrigérateur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["テーブル"],
+      "ln2": ["table"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ベッド"],
+      "ln2": ["lit"],
+      "notes": ""
+    },
+    {
+      "ln1": ["たな"],
+      "ln2": ["étagère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ドア"],
+      "ln2": ["porte"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まど"],
+      "ln2": ["fenêtre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ポスト"],
+      "ln2": ["boite à lettres"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ビル"],
+      "ln2": ["immeuble"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ATM"],
+      "ln2": ["distributeur de billet"],
+      "notes": ""
+    },
+    {
+      "ln1": ["コンビニ"],
+      "ln2": ["supérette"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こうえん"],
+      "ln2": ["parc"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きっさてん"],
+      "ln2": ["café","salon de thé"],
+      "notes": ""
+    },
+    {
+      "ln1": ["～や"],
+      "ln2": ["magasin de"],
+      "notes": ""
+    },
+    {
+      "ln1": ["のりば"],
+      "ln2": ["arrêt","emplacement pour prendre le taxi","bus","etc..."],
+      "notes": ""
+    },
+    {
+      "ln1": ["けん"],
+      "ln2": ["préfecture"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うえ"],
+      "ln2": ["dessus","sur","en haut"],
+      "notes": ""
+    },
+    {
+      "ln1": ["した"],
+      "ln2": ["dessous","sous","en bas"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まえ"],
+      "ln2": ["devant","en face"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うしろ"],
+      "ln2": ["derrière","arrière"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みぎ"],
+      "ln2": ["droite"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひだり"],
+      "ln2": ["gauche"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なか"],
+      "ln2": ["intérieur","dedans","dans"],
+      "notes": ""
+    },
+    {
+      "ln1": ["そと"],
+      "ln2": ["extérieur","dehors"],
+      "notes": ""
+    },
+    {
+      "ln1": ["となり"],
+      "ln2": ["à côté","voisin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちかく"],
+      "ln2": ["proximité","près"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あいだ"],
+      "ln2": ["entre","parmi"],
+      "notes": ""
+    },
+    {
+      "ln1": ["～や～など"],
+      "ln2": ["...et...entre autre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["コーナー"],
+      "ln2": ["rayon"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いちばんした"],
+      "ln2": ["en bas"],
+      "notes": ""
+    }
+  ]
+}
