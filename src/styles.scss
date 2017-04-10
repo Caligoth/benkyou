@@ -1,3 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+$border-radius: 0px;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+ul{
+  margin: 0px;
+  padding: 0px;
+
+  li{
+    list-style: none;
+  }
+}
+
+.loader {
+  padding: 15px;
+
+  & > *{
+    vertical-align: middle;
+  }
+}

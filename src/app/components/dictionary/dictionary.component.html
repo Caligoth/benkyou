@@ -1,39 +1,33 @@
-<div *ngIf="dictionary === null">
-    Chargement des dictionnaires...
-</div>
-<div *ngIf="dictionary !== null">
-    <div class="row" *ngIf="scoreMax > 0">
-        <div class="col">Score</div>
-        <div class="col">
-            {{ scoreCurrent }} / {{ scoreMax }}
-        </div>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/dictionaries"><i class="fa fa-home"></i> Retour à la liste des dictionnaires</a>
+        </li>
+        <li class="nav-item" *ngIf="scoreMax > 0">
+            <span class="navbar-text">Score : {{ scoreCurrent }} / {{ scoreMax }}</span>
+        </li>
+    </ul>
+</nav>
+<div class="body">
+    <div class="loader" *ngIf="dictionary === null">
+        <i class="fa fa-cog fa-spin fa-2x fa-fw"></i> <span>Chargement des dictionnaires...</span>
     </div>
-    <div *ngIf="translation !== null" class="row">
-        <div class="col container">
-            <div class="row">
-                <div class="col">{{ dictionary[translation.fromLn] }}</div>
-                <div class="col">{{ dictionary[translation.toLn] }}</div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <button class="btn btn-primary fa fa-refresh" (click)="newTranslation()"></button>
-                    {{ translation.fromWord }}
-                </div><!--{{ translation.word.notes }}-->
-                <form  class="col form-inline" [formGroup]="form" (ngSubmit)="testTranslation()">
-                    <div class="input-group">
-                        <input class="form-control" formControlName="value">
-                    </div>
-                    <button class="btn btn-primary fa fa-send" type="submit" [disabled]="score !== null"></button>
-                </form>
-            </div>
-            <div *ngIf="score !== null" class="row">
-                <div class="col" [ngClass]="{'text-success': score === 10, 'text-danger': score < 10}">
-                    <i class="fa" [ngClass]="{'fa-check': score === 10, 'fa-times': score < 10}"></i>
+    <div class="answer" *ngIf="dictionary !== null && translation !== null">
+        <div class="">
+            <div>{{ dictionary[translation.fromLn] }} : {{ translation.fromWord }}</div>
+            <div *ngIf="translation.word.notes">Notes : {{ translation.word.notes }}</div>
+        </div>
+        <div class="">
+            <form  class="form-inline" [formGroup]="form" (ngSubmit)="testTranslation()">
+                <div class="form-group" [ngClass]="{'has-success': score === 10, 'has-danger': score != null && score < 10}">
+                    <input type="text" class="form-control" placeholder="{{ dictionary[translation.toLn] }}" formControlName="value" [ngClass]="{'form-control-success': score === 10, 'form-control-danger': score != null && score < 10}">
+                    <button class="input-group-addon btn fa fa-send" type="submit" [disabled]="score !== null"></button>
+                    <button class="input-group-addon btn fa fa-refresh" type="button" (click)="newTranslation()"></button>
                 </div>
-                <div class="col">
-                    {{ translation.toWords }}
-                </div>
-            </div>
+            </form>
+        </div>
+        <div *ngIf="score !== null" class="">
+            Réponse : {{ translation.toWords }}
         </div>
     </div>
 </div>

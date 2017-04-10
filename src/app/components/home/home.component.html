@@ -1,8 +1,19 @@
-<div *ngIf="dictionaries.length === 0">
-    Chargement des dictionnaires...
+<div class="card">
+    <h3 class="card-header">Liste des dictionnaires</h3>
+    <div class="card-block">
+        <div class="loader" *ngIf="dictionaries.length === 0">
+            <i class="fa fa-cog fa-spin fa-2x fa-fw"></i> <span>Chargement des dictionnaires...</span>
+        </div>
+        <ul class="nav flex-column" *ngIf="dictionaries.length > 0">
+            <li class="nav-item" *ngFor="let dictionary of dictionaries; index as i">
+                <a class="nav-link card" [routerLink]="['/dictionaries', dictionary.id]">
+                    <h4 class="card-title">
+                        {{ dictionary.ln1 }} - {{ dictionary.ln2 }}
+                    </h4>
+
+                        {{ dictionary.words.length}} mots
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
-<ul *ngIf="dictionaries.length > 0">
-    <li *ngFor="let dictionary of dictionaries; index as i">
-        <a [routerLink]="['/dictionaries', dictionary.id]">{{ dictionary.ln1 }} - {{ dictionary.ln2 }} : {{ dictionary.words.length}} mots</a>
-    </li>
-</ul>
