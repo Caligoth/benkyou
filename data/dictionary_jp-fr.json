@@ -321,7 +321,7 @@
     {
       "ln1": ["なんですか"],
       "ln2": ["oui"],
-      "notes": "?"
+      "notes": ""
     },
     {
       "ln1": ["どう"],
@@ -555,8 +555,8 @@
     },
     {
       "ln1": ["にんぷん"],
-      "ln2": ["quelle minutes"],
-      "notes": "?"
+      "ln2": ["quelle minutes ?"],
+      "notes": ""
     },
     {
       "ln1": ["エレベ－タ－"],
@@ -585,8 +585,8 @@
     },
     {
       "ln1": ["［〜］もういっぱいいかがですか。"],
-      "ln2": ["voulez-vous prendre une autre"],
-      "notes": "?"
+      "ln2": ["voulez-vous prendre une autre ?"],
+      "notes": ""
     },
     {
       "ln1": ["ハンサムな"],
@@ -655,8 +655,8 @@
     },
     {
       "ln1": ["なんばん"],
-      "ln2": ["quel numéro"],
-      "notes": "?"
+      "ln2": ["quel numéro ?"],
+      "notes": ""
     },
     {
       "ln1": ["やさい"],
@@ -1660,7 +1660,7 @@
     },
     {
       "ln1": ["ためですか"],
-      "ln2": ["vous ne pouvez pas... ?"],
+      "ln2": ["vous ne pouvez pas ?"],
       "notes": ""
     },
     {
