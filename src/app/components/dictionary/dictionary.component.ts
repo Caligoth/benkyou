@@ -29,7 +29,7 @@ export class DictionaryComponent implements OnInit {
 
   ngOnInit () {
     this.form = new FormGroup({
-      value: new FormControl('', [Validators.required]),
+      value: new FormControl('', Validators.required),
     });
     this.route.params
       .switchMap((params: Params) => this.dictionaryService.getDictionary(params['id']))
@@ -45,12 +45,14 @@ export class DictionaryComponent implements OnInit {
     this.translation = this.dictionary.getRandomWord().getRandomTranslation();
     this.form.controls['value'].patchValue('');
     this.score = null;
-    this.form.enable();
   }
   testTranslation () {
-    this.score = this.translation.test(this.form.controls['value'].value);
-    this.scoreCurrent += this.score;
-    this.scoreMax += 10;
-    this.form.disable();
+    if (this.score === null && this.form.valid) {
+      this.score = this.translation.test(this.form.controls['value'].value);
+      this.scoreCurrent += this.score;
+      this.scoreMax += 10;
+    } else {
+      this.newTranslation();
+    }
   }
 }

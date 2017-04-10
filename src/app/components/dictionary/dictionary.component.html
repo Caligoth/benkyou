@@ -4,7 +4,7 @@
             <a class="nav-link" routerLink="/dictionaries"><i class="fa fa-home"></i> Retour à la liste des dictionnaires</a>
         </li>
         <li class="nav-item" *ngIf="scoreMax > 0">
-            <span class="navbar-text">Score : {{ scoreCurrent }} / {{ scoreMax }}</span>
+            <span class="navbar-text" style="margin-left: 20px;">Score : {{ scoreCurrent }} / {{ scoreMax }}</span>
         </li>
     </ul>
 </nav>
@@ -14,15 +14,21 @@
     </div>
     <div class="answer" *ngIf="dictionary !== null && translation !== null">
         <div class="">
-            <div>{{ dictionary[translation.fromLn] }} : {{ translation.fromWord }}</div>
+            <div>{{ dictionary[translation.fromLn] }} : {{ translation.fromWord }} <i style="margin-left:20px;" class="fa fa-refresh" (click)="newTranslation()"></i></div>
             <div *ngIf="translation.word.notes">Notes : {{ translation.word.notes }}</div>
         </div>
         <div class="">
             <form  class="form-inline" [formGroup]="form" (ngSubmit)="testTranslation()">
                 <div class="form-group" [ngClass]="{'has-success': score === 10, 'has-danger': score != null && score < 10}">
-                    <input type="text" class="form-control" placeholder="{{ dictionary[translation.toLn] }}" formControlName="value" [ngClass]="{'form-control-success': score === 10, 'form-control-danger': score != null && score < 10}">
-                    <button class="input-group-addon btn fa fa-send" type="submit" [disabled]="score !== null"></button>
-                    <button class="input-group-addon btn fa fa-refresh" type="button" (click)="newTranslation()"></button>
+                    <input type="text" class="form-control"
+                           placeholder="{{ dictionary[translation.toLn] }}"
+                           [readonly]="score != null"
+                           formControlName="value" required
+                           [ngClass]="{'form-control-success': score === 10, 'form-control-danger': score != null && score < 10}
+                    ">
+                    <button class="input-group-addon btn fa" type="submit"
+                            [ngClass]="{'fa-send': score == null && form.controls['value'].value, 'fa-refresh': score != null || !form.controls['value'].value}"
+                    ></button>
                 </div>
             </form>
         </div>
