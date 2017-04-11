@@ -1,14 +1,21 @@
 import { WordModel } from './word';
-import { ArrayHelper } from '../helpers/array';
 import { StringHelper } from '../helpers/string';
 
 export class TranslationModel {
+  static reEmpty = new RegExp('!|?|\.', 'gi');
+  static reSpace = new RegExp('!|?|\.', 'gi');
   word: WordModel;
   fromLn: string;
   toLn: string;
   fromWords: string;
   toWords: Array<string>;
-
+  static clearText(str): string {
+    return StringHelper
+      .removeAccents(str.toLowerCase())
+      .replace(TranslationModel.reEmpty, '')
+      .replace(TranslationModel.reSpace, ' ')
+      .trim();
+  }
   constructor (word: WordModel, fromLn: string, toLn: string) {
     this.word = word;
     this.fromLn = fromLn;
@@ -19,11 +26,10 @@ export class TranslationModel {
   test (value: string): number {
     let mistakesMin = Infinity;
     let similarityWord = '';
-    value = StringHelper.removeAccents(value.toLowerCase()).replace('-', ' ');
+    value = TranslationModel.clearText(value);
 
     this.toWords.map(word => {
-      word = StringHelper.removeAccents(word.toLowerCase()).replace('-', ' ');
-      const mistakesCount = StringHelper.levenshteinenator(value, word);
+      const mistakesCount = StringHelper.levenshteinenator(value, TranslationModel.clearText(word));
 
       if (mistakesCount < mistakesMin) {
         mistakesMin = mistakesCount;
