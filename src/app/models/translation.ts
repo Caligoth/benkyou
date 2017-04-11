@@ -6,14 +6,14 @@ export class TranslationModel {
   word: WordModel;
   fromLn: string;
   toLn: string;
-  fromWord: string;
+  fromWords: string;
   toWords: Array<string>;
 
   constructor (word: WordModel, fromLn: string, toLn: string) {
     this.word = word;
     this.fromLn = fromLn;
     this.toLn = toLn;
-    this.fromWord = ArrayHelper.getRandomElement(this.word[this.fromLn]);
+    this.fromWords = this.word[this.fromLn];
     this.toWords = this.word[this.toLn];
   }
   test (value: string): number {

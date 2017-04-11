@@ -14,7 +14,7 @@ export class DictionaryModel {
       const word = new WordModel();
       word.copy(wordData);
       this.words.push(word);
-    })
+    });
   }
   getRandomWord (): WordModel {
     return <WordModel> ArrayHelper.getRandomElement(this.words);
