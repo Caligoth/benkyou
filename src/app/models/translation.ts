@@ -19,10 +19,11 @@ export class TranslationModel {
   test (value: string): number {
     let mistakesMin = Infinity;
     let similarityWord = '';
-    value = StringHelper.removeAccents(value.toLowerCase());
+    value = StringHelper.removeAccents(value.toLowerCase()).replace('-', ' ');
 
     this.toWords.map(word => {
-      const mistakesCount = StringHelper.levenshteinenator(value, StringHelper.removeAccents(word.toLowerCase()));
+      word = StringHelper.removeAccents(word.toLowerCase()).replace('-', ' ');
+      const mistakesCount = StringHelper.levenshteinenator(value, word);
 
       if (mistakesCount < mistakesMin) {
         mistakesMin = mistakesCount;
