@@ -1880,7 +1880,7 @@
     },
     {
       "ln1": ["～や～など"],
-      "ln2": ["...et...entre autre"],
+      "ln2": ["-et-entre autre", "entre autre"],
       "notes": ""
     },
     {
