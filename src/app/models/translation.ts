@@ -2,8 +2,8 @@ import { WordModel } from './word';
 import { StringHelper } from '../helpers/string';
 
 export class TranslationModel {
-  static reEmpty = new RegExp('!|?|\.', 'gi');
-  static reSpace = new RegExp('!|?|\.', 'gi');
+  static reEmpty = new RegExp('!|?|\.|。', 'gi');
+  static reSpace = new RegExp('-', 'gi');
   word: WordModel;
   fromLn: string;
   toLn: string;

@@ -85,12 +85,12 @@
     },
     {
       "ln1": ["テレビ"],
-      "ln2": ["tv"],
+      "ln2": ["tv","télévision"],
       "notes": ""
     },
     {
       "ln1": ["コンピュ－タ－"],
-      "ln2": ["ordinateur"],
+      "ln2": ["ordinateur","pc"],
       "notes": ""
     },
     {
@@ -1090,7 +1090,7 @@
     },
     {
       "ln1": ["うけつけ"],
-      "ln2": ["Accueil"],
+      "ln2": ["accueil"],
       "notes": ""
     },
     {
@@ -1150,7 +1150,7 @@
     },
     {
       "ln1": ["ゆうびんじょく"],
-      "ln2": ["Bureau de poste"],
+      "ln2": ["bureau de poste"],
       "notes": ""
     },
     {
@@ -1410,7 +1410,7 @@
     },
     {
       "ln1": ["－がつ"],
-      "ln2": ["-mois"],
+      "ln2": ["mois"],
       "notes": ""
     },
     {
@@ -1815,7 +1815,7 @@
     },
     {
       "ln1": ["のりば"],
-      "ln2": ["arrêt","emplacement pour prendre le taxi","bus","etc..."],
+      "ln2": ["arrêt de taxi","arrêt de bus","emplacement pour prendre le taxi","emplacement pour prendre le bus"],
       "notes": ""
     },
     {
@@ -1891,6 +1891,476 @@
     {
       "ln1": ["いちばんした"],
       "ln2": ["en bas"],
+      "notes": ""
+    },
+    {
+      "ln1": ["います"],
+      "ln2": ["avoir","être","rester"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かかります"],
+      "ln2": ["il faut","cela prend"],
+      "notes": "s'emploie pour le temps et l'argent"
+    },
+    {
+      "ln1": ["やすみます","休みます"],
+      "ln2": ["s'absenter"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひとつ"],
+      "ln2": ["un"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふたつ"],
+      "ln2": ["deux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みっつ"],
+      "ln2": ["trois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["よっつ"],
+      "ln2": ["quatre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いつつ"],
+      "ln2": ["cinq"],
+      "notes": ""
+    },
+    {
+      "ln1": ["むっつ"],
+      "ln2": ["six"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ななつ"],
+      "ln2": ["sept"],
+      "notes": ""
+    },
+    {
+      "ln1": ["やっつ"],
+      "ln2": ["huit"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ここのつ"],
+      "ln2": ["neuf"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とお"],
+      "ln2": ["dix"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いくつ"],
+      "ln2": ["combien"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ひとり"],
+      "ln2": ["une personne"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふたり"],
+      "ln2": ["deux personnes"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーにん"],
+      "ln2": [""],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーかい","回"],
+      "ln2": ["-fois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りんご"],
+      "ln2": ["pomme"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みかん"],
+      "ln2": ["mandarine"],
+      "notes": ""
+    },
+    {
+      "ln1": ["サンドイッチ"],
+      "ln2": ["sandwich"],
+      "notes": ""
+    },
+    {
+      "ln1": ["カレー（ライス）"],
+      "ln2": ["curry"],
+      "notes": "riz au"
+    },
+    {
+      "ln1": ["アイスクリーム"],
+      "ln2": ["glace"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きって","切っ手"],
+      "ln2": ["timbre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はがき"],
+      "ln2": ["carte postale"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふうとう","封筒"],
+      "ln2": ["enveloppe"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りょうしん","両親"],
+      "ln2": ["parents"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きょうだい","兄弟"],
+      "ln2": ["frères et soeurs"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あに","兄"],
+      "ln2": ["grand frère"],
+      "notes": "mon ..."
+    },
+    {
+      "ln1": ["おにいさん","お兄さん"],
+      "ln2": ["grand frère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あね","姉"],
+      "ln2": ["grande soeur"],
+      "notes": "ma ..."
+    },
+    {
+      "ln1": ["おねえさん","お姉さん"],
+      "ln2": ["grande soeur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おとうと","弟"],
+      "ln2": ["petit frère"],
+      "notes": "mon ..."
+    },
+    {
+      "ln1": ["おとうとさん","弟さん"],
+      "ln2": ["petit frère"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いもうと","妹"],
+      "ln2": ["petite soeur"],
+      "notes": "ma ..."
+    },
+    {
+      "ln1": ["いもうとさん","妹さん"],
+      "ln2": ["petite soeur"],
+      "notes": ""
+    },
+    {
+      "ln1": ["がいこく","外国"],
+      "ln2": ["pays étranger"],
+      "notes": ""
+    },
+    {
+      "ln1": ["りゅうがくせい","留学生"],
+      "ln2": ["étudiant étranger"],
+      "notes": ""
+    },
+    {
+      "ln1": ["クラス"],
+      "ln2": ["classe"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーじかん","時間"],
+      "ln2": ["heures"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーしゅうかん","週間"],
+      "ln2": ["semaines"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーかげつ","か月"],
+      "ln2": ["mois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ーねん","年"],
+      "ln2": ["années"],
+      "notes": ""
+    },
+    {
+      "ln1": ["～ぐらい"],
+      "ln2": ["environ"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どのくらい"],
+      "ln2": ["combien"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぜんぶで","全部で"],
+      "ln2": ["en tout"],
+      "notes": ""
+    },
+    {
+      "ln1": ["みんな"],
+      "ln2": ["tout","tous"],
+      "notes": ""
+    },
+    {
+      "ln1": ["～だけ"],
+      "ln2": ["seulement"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かしこまりました"],
+      "ln2": ["à votre service"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふなびん"],
+      "ln2": ["par bateau"],
+      "notes": ""
+    },
+    {
+      "ln1": ["こうくうびん"],
+      "ln2": ["par avion"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おねがいします"],
+      "ln2": ["s'il vous plait"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ていしょく"],
+      "ln2": ["menu","formule"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かんたんな","簡単"],
+      "ln2": ["facile","simple"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ちかい","近い"],
+      "ln2": ["proche"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とおい","遠い"],
+      "ln2": ["loin"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はやい","早い"],
+      "ln2": ["tôt","rapide"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おそい","遅い"],
+      "ln2": ["tard","lent"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おおい","多い"],
+      "ln2": ["beaucoup de","nombreux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すくない","少ない"],
+      "ln2": ["peu de","peu nombreux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あたたかい","暖かい","温かい"],
+      "ln2": ["il fait doux","chaud","tiède"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すずしい","涼しい"],
+      "ln2": ["il fait frais"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あまい","甘い"],
+      "ln2": ["sucré","doux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["からい","辛い"],
+      "ln2": ["piquant","salé"],
+      "notes": ""
+    },
+    {
+      "ln1": ["おもい","重い"],
+      "ln2": ["lourd"],
+      "notes": ""
+    },
+    {
+      "ln1": ["かるい","軽い"],
+      "ln2": ["léger"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いい"],
+      "ln2": ["préférer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["きせつ","季節"],
+      "ln2": ["saison"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はる","春"],
+      "ln2": ["printemps"],
+      "notes": ""
+    },
+    {
+      "ln1": ["なつ","夏"],
+      "ln2": ["été"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あき","秋"],
+      "ln2": ["automne"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ふゆ","冬"],
+      "ln2": ["hiver"],
+      "notes": ""
+    },
+    {
+      "ln1": ["てんき","天気"],
+      "ln2": ["temps"],
+      "notes": ""
+    },
+    {
+      "ln1": ["あめ","雨"],
+      "ln2": ["pluie"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ゆき","雪"],
+      "ln2": ["neige"],
+      "notes": ""
+    },
+    {
+      "ln1": ["くもり","曇り"],
+      "ln2": ["nuageux"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ホテル"],
+      "ln2": ["hôtel"],
+      "notes": ""
+    },
+    {
+      "ln1": ["くうこう","空港"],
+      "ln2": ["aéroport"],
+      "notes": ""
+    },
+    {
+      "ln1": ["うみ","海"],
+      "ln2": ["mer"],
+      "notes": ""
+    },
+    {
+      "ln1": ["せかい","世界"],
+      "ln2": ["monde"],
+      "notes": ""
+    },
+    {
+      "ln1": ["パーティー"],
+      "ln2": ["réception","soirée","fête","pot"],
+      "notes": ""
+    },
+    {
+      "ln1": ["まつり","祭り"],
+      "ln2": ["fête","fête populaire","festival"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぶたにく","豚肉"],
+      "ln2": ["porc"],
+      "notes": ""
+    },
+    {
+      "ln1": ["とりにく","とり肉"],
+      "ln2": ["poulet"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ぎゅうにく","牛肉"],
+      "ln2": ["boeuf"],
+      "notes": ""
+    },
+    {
+      "ln1": ["レモン"],
+      "ln2": ["citron"],
+      "notes": ""
+    },
+    {
+      "ln1": ["もみじ","紅葉"],
+      "ln2": ["érable","feuille rouge d'automne"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どちら"],
+      "ln2": ["lequel"],
+      "notes": ""
+    },
+    {
+      "ln1": ["どちらも"],
+      "ln2": ["les deux","l'un comme l'autre"],
+      "notes": ""
+    },
+    {
+      "ln1": ["いちばん"],
+      "ln2": ["le plus"],
+      "notes": ""
+    },
+    {
+      "ln1": ["ずっと"],
+      "ln2": ["beaucoup"],
+      "notes": ""
+    },
+    {
+      "ln1": ["はじめて","初めて"],
+      "ln2": ["pour la première fois"],
+      "notes": ""
+    },
+    {
+      "ln1": ["つかれました"],
+      "ln2": ["je suis fatigué"],
+      "notes": ""
+    },
+    {
+      "ln1": ["すごいひとですね"],
+      "ln2": ["il y a énormément de monde !"],
       "notes": ""
     }
   ]
