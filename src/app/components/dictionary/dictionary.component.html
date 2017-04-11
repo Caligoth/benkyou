@@ -14,7 +14,7 @@
     </div>
     <div class="answer" *ngIf="dictionary !== null && translation !== null">
         <div class="">
-            <div>{{ dictionary[translation.fromLn] }} : {{ translation.fromWord }} <i style="margin-left:20px;" class="fa fa-refresh" (click)="newTranslation()"></i></div>
+            <div>{{ dictionary[translation.fromLn] }} : {{ translation.fromWords }} <i style="margin-left:20px;" class="fa fa-refresh" (click)="newTranslation()"></i></div>
             <div *ngIf="translation.word.notes">Notes : {{ translation.word.notes }}</div>
         </div>
         <div class="">
