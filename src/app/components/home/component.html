@@ -1,8 +1,0 @@
-<div *ngIf="dictionaries.length == 0">
-    Chargement des dictionnaires...
-</div>
-<ul *ngIf="dictionaries.length > 0">
-    <li *ngFor="let dictionary of dictionaries; index as i">
-        <a [routerLink]="['/dictionaries', dictionary.id]">{{ dictionary.ln1 }} - {{ dictionary.ln2 }} : {{ dictionary.words.length}} mots</a>
-    </li>
-</ul>

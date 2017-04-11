@@ -24,7 +24,9 @@ export class DictionaryService {
       return this.http.request('./data/' + files[index])
         .toPromise()
         .then((dictionaryResponse) => {
-          dictionaries.push(dictionaryResponse.json());
+          const dictionary = new DictionaryModel;
+          dictionary.copy(dictionaryResponse.json());
+          dictionaries.push(dictionary);
           return this.getDictionaryFiles(files, index + 1, dictionaries);
         });
     }

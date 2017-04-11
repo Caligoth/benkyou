@@ -5,8 +5,8 @@ import { DictionaryModel } from '../../models/dictionary';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './component.html',
-  styleUrls: ['./component.css']
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
   dictionaries: Array<DictionaryModel> = [];
@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
   ngOnInit () {
     this.dictionaryService.getDictionaries().then(dictionaries => {
       this.dictionaries = dictionaries;
-      console.log('init', this.dictionaries);
     });
   }
 }
